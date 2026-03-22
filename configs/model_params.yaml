@@ -1,0 +1,7 @@
+model:
+  type: "XGBoost"
+
+training:
+  n_estimators: 100
+  learning_rate: 0.2
+  max_depth: 4
