@@ -41,19 +41,19 @@ curl -X POST "http://localhost:8000/predict/" \
 
 ## Структура проекта
 
-├── /artifacts          # Сохраненные артефакты (пайплайны, модели, графики)
-├── /configs            # Настройки
-├── /data
-│   ├── /raw            # Сырые данные
-│   └── /processed      # Обработанные данные
-├── /docs               # Документы для работы с сервисом
-├── /notebooks          # Ноутбуки для анализа
-├── /src
-│   ├── /api            # API сервиса
-│   ├── /data           # Преобразование данных
-│   └── /model          # Обучение модели и предсказание
-├── Makefile
-├── Dockerfile
-├── README.md
-├── requirements_dev.txt
-└── requirements_prod.txt
+- /artifacts    # Сохраненные артефакты (пайплайны, модели, графики)
+- /configs      # Настройки
+- /data
+  - /raw        # Сырые данные
+  - /processed  # Обработанные данные
+- /docs         # Документы для работы с сервисом
+- /notebooks    # Ноутбуки для анализа
+- /src
+  - /api        # API сервиса
+  - /data       # Преобразование данных
+  - /model      # Обучение модели и предсказание
+- Makefile
+- Dockerfile
+- README.md
+- requirements_dev.txt
+- requirements_prod.txt
